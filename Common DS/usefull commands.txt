@@ -1,0 +1,15 @@
+
+Dedicated Server:
+c_save()
+c_shutdown()
+
+c_give("prefab", 1)
+
+c_select(AllPlayers[number])
+c_listallplayers()
+
+TheWorld:PushEvent("ms_setseasonlengths", {summer=20, winter=15})
+TheWorld:PushEvent("ms_setseason", "summer")
+TheNet:Ban(userid)
+
+
