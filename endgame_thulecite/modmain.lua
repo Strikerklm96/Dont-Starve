@@ -8,6 +8,8 @@ TECH = GLOBAL.TECH
 STRINGS.NAMES.GREENAMULET = "Energy Amulet"
 STRINGS.NAMES.GREENSTAFF = "Anti-Energy Staff"
 
+--General
+TUNING.EndGame_Thulecite_Durability = 20000
 
 --Description
 STRINGS.RECIPE_DESC.MULTITOOL_AXE_PICKAXE = "Triply useful."
@@ -36,8 +38,8 @@ TUNING.ShieldCooldown = 10
 TUNING.RuinsArmorAbsorption = 0.9
 
 
---General
-TUNING.EndGame_Thulecite_Durability = 20000
+--Wall
+TUNING.RUINSWALL_HEALTH = TUNING.EndGame_Thulecite_Durability
 
 --Tool
 TUNING.ToolSpeed = 3
@@ -73,7 +75,7 @@ Recipe("multitool_axe_pickaxe", {Ingredient("thulecite", 20), Ingredient("golden
 
 Recipe("orangeamulet", {Ingredient("thulecite", 20), Ingredient("nightmarefuel", 10),Ingredient("orangegem", 4)}, RECIPETABS.ANCIENT,  TECH.ANCIENT_FOUR, nil, nil, true)
 Recipe("yellowamulet", {Ingredient("thulecite", 20), Ingredient("nightmarefuel", 10),Ingredient("yellowgem", 4)}, RECIPETABS.ANCIENT, TECH.ANCIENT_TWO, nil, nil, true)
-Recipe("greenamulet", {Ingredient("thulecite", 20), Ingredient("nightmarefuel", 10),Ingredient("greengem", 4), Ingredient("slurper_pelt", 10)}, RECIPETABS.ANCIENT,  TECH.ANCIENT_TWO, nil, nil, true)
+Recipe("greenamulet", {Ingredient("thulecite", 20), Ingredient("slurper_pelt", 10),Ingredient("greengem", 4)}, RECIPETABS.ANCIENT,  TECH.ANCIENT_TWO, nil, nil, true)
 
 Recipe("orangestaff", {Ingredient("nightmarefuel", 25), Ingredient("livinglog", 10), Ingredient("orangegem", 4)}, RECIPETABS.ANCIENT, TECH.ANCIENT_FOUR, nil, nil, true)
 Recipe("yellowstaff", {Ingredient("nightmarefuel", 25), Ingredient("livinglog", 10), Ingredient("yellowgem", 4)}, RECIPETABS.ANCIENT, TECH.ANCIENT_TWO, nil, nil, true)
