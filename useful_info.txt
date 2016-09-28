@@ -1,0 +1,19 @@
+
+--TECHNOLOGY
+
+TECH.NONE = Automatic
+
+TECH.SCIENCE_ONE = Science Machine
+TECH.SCIENCE_TWO = Alchemy Engine
+
+TECH.MAGIC_TWO = Prestihatitator
+TECH.MAGIC_THREE = Shadow Manipulator
+
+TECH.ANCIENT_ONE = Half Ancient Altar
+TECH.ANCIENT_TWO = Full Ancient Altar
+
+
+
+
+
+
