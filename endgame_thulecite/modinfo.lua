@@ -5,7 +5,7 @@ description = "Thulecite items are expensive, but the best."
 
 author = "Striker"
 
-version = "1.5"
+version = "1.6"
 
 api_version = 6
 
