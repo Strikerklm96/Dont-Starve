@@ -1,23 +1,23 @@
-name = "Improved Beekeeper Hat DST"
+name = "Arachnophobia DST"
 
-description = "The Beekeeper Hat now absorbs 100% of bee damage and is 35% more durable." 
+description = "Spiders are invading this world." 
 
 author = "Striker"
 
-version = "1.1"
+version = "1.0"
 
 api_version = 6
 api_version_dst = 10
 
-dont_starve_compatible = true
-reign_of_giants_compatible = true
+dont_starve_compatible = false
+reign_of_giants_compatible = false
 
 dst_compatible = true
 all_clients_require_mod = true
 client_only_mod = false
 
-icon_atlas = "beehat.xml"
-icon = "beehat.tex"
+icon_atlas = "preview.xml"
+icon = "preview.tex"
 
 forumthread = ""
 
